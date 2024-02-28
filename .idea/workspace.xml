@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e9c6fb6-90f1-4074-93aa-93715ba702cf" name="Changes" comment="Debug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7e9c6fb6-90f1-4074-93aa-93715ba702cf" name="Changes" comment="Debug #2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709114835891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Debug #2">
+      <option name="closed" value="true" />
+      <created>1709116436147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709116436148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug" />
+    <MESSAGE value="Debug #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug #2" />
   </component>
 </project>
