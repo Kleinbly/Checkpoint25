@@ -87,7 +87,7 @@ job_type = st.selectbox("Quel type d'emploi exercé :",
                          'Dont Know/Refuse to answer', 'No Income'])
 
 
-if st.button("Predict"):
+if st.button("Predict", type='primary'):
     model_accuracy, model = trainingClassifier()
 
     # Encoding inputs
