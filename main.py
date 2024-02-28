@@ -87,7 +87,27 @@ job_type = st.selectbox("Quel type d'emploi exercé :",
                          'Formally employed Government', 'Farming and Fishing', 'Remittance Dependent', 'Other Income',
                          'Dont Know/Refuse to answer', 'No Income'])
 
-if st.button(label="Predict", type="primary"):
+st.markdown(
+    """
+    <style>
+    .primary-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+if st.button("Predict", key="predict_button",class="primary-button"):
     model_accuracy, model = trainingClassifier()
 
     # Encoding inputs
