@@ -2,7 +2,6 @@ import streamlit as st
 
 # title
 st.title('Financial Inclusion in Africa')
-st.write("Streamlit version:", st.__version__)
 # Prediction model
 # Step1 : Importing the packages
 import pandas as pd
