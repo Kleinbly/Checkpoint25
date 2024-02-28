@@ -125,5 +125,6 @@ if st.button("Predict", type='primary'):
     # Display accuracy of the model
     st.info('The accuracy of the model is : ' + model_accuracy, icon="ℹ️")
     # Display the result
-    st.success('This person is likely to have a bank account.' if output[0] == 1 else 'This person is likely to NOT have a bank account.',
+    st.success('This person is likely to have a bank account.' if output[0] == 'Yes' else 'This person is likely to NOT have a bank account.',
                icon="ℹ️")
+
