@@ -6,7 +6,7 @@ st.title('Financial Inclusion in Africa')
 # Prediction model
 # Step1 : Importing the packages
 import pandas as pd
-import sklearn.preprocessing as skprep
+import sklearn
 # Supervised learning
 from sklearn.model_selection import train_test_split
 from sklearn import tree
@@ -14,15 +14,15 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
 # Label Encoders
-encoder0 = skprep.LabelEncoder()
-encoder1 = skprep.LabelEncoder()
-encoder2 = skprep.LabelEncoder()
-encoder3 = skprep.LabelEncoder()
-encoder4 = skprep.LabelEncoder()
-encoder5 = skprep.LabelEncoder()
-encoder6 = skprep.LabelEncoder()
-encoder7 = skprep.LabelEncoder()
-encoder8 = skprep.LabelEncoder()
+encoder0 = sklearn.preprocessing.LabelEncoder()
+encoder1 = sklearn.preprocessing.LabelEncoder()
+encoder2 = sklearn.preprocessing.LabelEncoder()
+encoder3 = sklearn.preprocessing.LabelEncoder()
+encoder4 = sklearn.preprocessing.LabelEncoder()
+encoder5 = sklearn.preprocessing.LabelEncoder()
+encoder6 = sklearn.preprocessing.LabelEncoder()
+encoder7 = sklearn.preprocessing.LabelEncoder()
+encoder8 = sklearn.preprocessing.LabelEncoder()
 
 def trainingClassifier():
     # Step2: Loading the dataset
